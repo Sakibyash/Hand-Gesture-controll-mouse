@@ -1,0 +1,58 @@
+/* Body and General Styles */
+body {
+    background-color: #000000; /* Black background */
+    color: #C0C0C0; /* Silver text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the content */
+.container {
+    text-align: center;
+    border: 2px solid #C0C0C0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1C1C1C; /* Darker black for contrast */
+}
+
+/* Heading Styles */
+h1 {
+    color: #C0C0C0; /* Silver heading */
+    margin-bottom: 20px;
+}
+
+/* Video Styles */
+video {
+    width: 80%;
+    border: 2px solid #C0C0C0; /* Silver border */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(192, 192, 192, 0.5); /* Soft silver glow */
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #C0C0C0; /* Silver button background */
+    color: #000000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B0B0B0; /* Slightly darker silver on hover */
+}
+
+/* Footer or any additional text */
+.footer {
+    color: #C0C0C0; /* Silver text */
+    margin-top: 20px;
+}
